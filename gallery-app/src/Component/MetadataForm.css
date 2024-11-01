@@ -1,0 +1,31 @@
+.metadata-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Adjust the gap between form elements */
+}
+
+.metadata-form label {
+    font-weight: bold;
+}
+
+.metadata-form input,
+.metadata-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.metadata-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.metadata-form .button-container {
+    display: flex;
+    justify-content: space-between; /* Optional: Space buttons evenly */
+  }

@@ -38,7 +38,7 @@ const Gallery: React.FC<GalleryProps> = ({ images, columns = 3, gap = '10px' }) 
 
   return (
     <div>
-      <SearchBar onSearch={handleOnSearch}/>
+      <SearchBar onSearch={handleOnSearch} />
       <div className='gallery'>
         {displayedImages.map((image, index) => (
           <ImageCard key={index} image={image.image} onClick={() => handleImageClick(image.image.src)} />
